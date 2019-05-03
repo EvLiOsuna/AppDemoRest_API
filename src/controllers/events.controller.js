@@ -62,7 +62,9 @@ exports.DeleteZone=async (req,res)=>{
 exports.UpdateZone=async (req,res)=>{
     const zona=req.params.id;
     const descripcion=req.body.DesZona;
-    await Cat_zonas.updateOne({IdZona:zona},{$set:{DesZona:descripcion,FechaUltMod:FORMATS_FOR_DATE_AND_TIME().DATE_UTC,UsuarioMod:'REST'}})
+    const usuariom=req.body.UsuarioMod;
+    const usuario=req.body.UsuarioReg;
+    await Cat_zonas.updateOne({IdZona:zona},{$set:{DesZona:descripcion,FechaUltMod:FORMATS_FOR_DATE_AND_TIME().DATE_UTC,UsuarioMod:usuariom,UsuarioReg:usuario}})
         .then
         (data=>
             {

@@ -16,10 +16,11 @@ app.use(allowCrossDomain);
 app.listen(ENVIRONMENT.SERVER_PORT,async()=>{
     try{
         app.use(allowCrossDomain);
-        console.log("Express ejecutado correctamente");
+        console.log("Successful connection to Express");
         mongoose.connect(ENVIRONMENT.BD_URL_CONNECTION.DEVELOPING,{useNewUrlParser:true})
             .then(()=>{
                 console.log('Successful connection to MongoDB');
+                console.log('Ahora puedes correr la app. :) ');
                 app.get(ENVIRONMENT.ROUTES_MAIN_MODULES.INDEX,(req,res)=>{
                     res.status(200);
                     res.send("¡Hola Mundo!"+"</br>"+
