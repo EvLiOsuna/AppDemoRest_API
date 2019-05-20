@@ -16,7 +16,79 @@ export const ENVIRONMENT={
                 GET_ZONES_LIST:'/getzoneslist',
                 POST_ZONES:'/postzone',
                 DELETE_ZONE:'/deletezone/:id',
-                UPDATE_ZONE:'/updatezone/:id'
+                UPDATE_ZONE:'/updatezone/:id',
+
+                //PERSONA
+
+                GET_PERSONA:'/getpersona',
+                POST_PERSONA:'/postpersona',
+                DELETE_PERSONA:'/deletepersona/:id',
+                UPDATE_PERSONA:'/updatepersona/:id',
+
+
+                 //ALUMNO
+
+                 GET_ALUMNO:'/getalumno',
+                 POST_ALUMNO:'/postalumno',
+                 DELETE_ALUMNO:'/deletealumno/:id',
+                 UPDATE_ALUMNO:'/updatealumno/:id',
+
+                 //ASIGNATURA
+
+                GET_ASIGNATURA:'/getasignatura',
+                POST_ASIGNATURA:'/postasignatura',
+                DELETE_ASIGNATURA:'/deleteasignatura/:id',
+                UPDATE_ASIGNATURA:'/updateasignatura/:id',
+
+
+                 //DOCENTES
+
+                 GET_DOCENTES:'/getdocentes',
+                 POST_DOCENTES:'/postdocentes',
+                 DELETE_DOCENTES:'/deletedocentes/:id',
+                 UPDATE_DOCENTES:'/updatedocentes/:id',
+
+                  //ESPECIALIDAD
+
+                  GET_ESPECIALIDAD:'/getespecialidad',
+                  POST_ESPECIALIDAD:'/postespecialidad',
+                  DELETE_ESPECIALIDAD:'/deleteespecialidad/:id',
+                  UPDATE_ESPECIALIDAD:'/updateespecialidad/:id',
+
+                  //RETICULA
+
+                  GET_RETICULA:'/getreticula',
+                  POST_RETICULA:'/postreticula',
+                  DELETE_RETICULA:'/deletereticula/:id',
+                  UPDATE_RETICULA:'/updatereticula/:id',
+
+                  //GRUPO
+
+                  GET_GRUPO:'/getgrupo',
+                  POST_GRUPO:'/postgrupo',
+                  DELETE_GRUPO:'/deletegrupo/:id',
+                  UPDATE_GRUPO:'/updategrupo/:id',
+
+                  //CARRERA
+
+                  GET_CARRERA:'/getcarrera',
+                  POST_CARRERA:'/postcarrera',
+                  DELETE_CARRERA:'/deletecarrera/:id',
+                  UPDATE_CARRERA:'/updatecarrera/:id',
+
+                  //EDIFICIO
+                  
+                  GET_EDIFICIO:'/getedificio',
+                  POST_EDIFICIO:'/postedificio',
+                  DELETE_EDIFICIO:'/deleteedificio/:id',
+                  UPDATE_EDIFICIO:'/updateedificio/:id',
+
+                   //HORARIO
+                  
+                   GET_HORARIO:'/gethorario',
+                   POST_HORARIO:'/posthorario',
+                   DELETE_HORARIO:'/deletehorario/:id',
+                   UPDATE_HORARIO:'/updatehorario/:id'
             }
         }
     }
